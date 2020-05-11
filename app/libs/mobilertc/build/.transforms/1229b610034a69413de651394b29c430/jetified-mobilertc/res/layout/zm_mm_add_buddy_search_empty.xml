@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/text_message"
+        style="@style/ZMTextView.OnLight.Medium.DeepGrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:text="@string/zm_mm_lbl_could_not_match_on_zoom_48295"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/btn_invite"
+        style="@style/ZMTextView.Normal.OnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/zm_mm_msg_search_contact_invite_to_zoom"
+        android:gravity="center"
+        android:background="@drawable/zm_btn_add_buddy_invite"
+        />
+</LinearLayout>

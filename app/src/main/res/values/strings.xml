@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZoomAndroidSdkSample</string>
+    <string name="welcome_to_zoom">Welcome To ZOOM</string>
+    <string name="meeting_id">Enter Meeting Id</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="join_meeting">Join Meeting</string>
+    <string name="enter_meeting_id_and_name">Please enter a meeting number and name which to join.</string>
+    <string name="sdk_success_message">ZoomSDK has not been initialized successfully</string>
+
+</resources>

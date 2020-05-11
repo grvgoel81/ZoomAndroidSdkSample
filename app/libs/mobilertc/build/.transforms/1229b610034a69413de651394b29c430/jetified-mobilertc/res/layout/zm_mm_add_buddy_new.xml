@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zoom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zm_window_bg"
+    android:orientation="vertical"
+    >
+    <us.zoom.androidlib.widget.ZMIOSStyleTitlebarLayout
+        android:id="@+id/panelTitleBar"
+        style="@style/ZMTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zoom:zm_leftButton="@+id/btnCancel"
+        zoom:zm_rightButton="@+id/panelRight"
+        zoom:zm_title="@+id/txtTitle" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/ZMButton.TitleBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zm_btn_cancel" />
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/panelRight"
+            android:orientation="horizontal" />
+
+        <us.zoom.androidlib.widget.ZMDynTextSizeTextView
+            android:id="@+id/txtTitle"
+            style="@style/ZMTextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/zm_lbl_add_contact" />
+    </us.zoom.androidlib.widget.ZMIOSStyleTitlebarLayout>
+
+    <EditText
+        style="@style/ZMEditText.ContextSearch"
+        android:id="@+id/edtSearch"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/zm_hint_enter_email"
+        android:cursorVisible="false"
+        android:imeOptions="actionSearch"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        style="@style/ZMTextView.Small.Dimmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="false"
+        android:id="@+id/txtAddDes"
+        android:text="@string/zm_description_add_buddy"
+        android:textColor="@color/zm_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+</LinearLayout>

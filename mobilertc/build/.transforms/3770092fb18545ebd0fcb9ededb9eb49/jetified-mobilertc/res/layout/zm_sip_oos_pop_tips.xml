@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_title"
+    style="@style/UIKitTextView.Small"
+    android:textSize="@dimen/zm_ui_kit_text_size_14sp"
+    android:layout_width="@dimen/zm_sip_pop_width"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:text="@string/zm_sip_out_of_range_tip_101964"
+    android:background="@drawable/zm_pop_dropdown_right"/>
